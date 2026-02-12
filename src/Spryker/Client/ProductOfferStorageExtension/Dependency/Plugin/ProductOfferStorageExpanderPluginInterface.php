@@ -11,6 +11,8 @@ use Generated\Shared\Transfer\ProductOfferStorageTransfer;
 
 /**
  * Provides ability to expand ProductOfferStorage transfer object.
+ *
+ * @deprecated Use {@link \Spryker\Client\ProductOfferStorageExtension\Dependency\Plugin\ProductOfferStorageBulkExpanderPluginInterface} instead.
  */
 interface ProductOfferStorageExpanderPluginInterface
 {
